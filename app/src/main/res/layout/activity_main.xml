@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.castano.pipe.rocas.MainActivity">
+
+    <ImageView
+        android:id="@+id/fondoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fondo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tituloTextView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/inicio"
+            android:id="@+id/inicioButton"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/config"
+            android:id="@+id/configButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/salir"
+            android:id="@+id/salirButton"
+            android:onClick="salidApp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/d_adicional"
+            android:id="@+id/adicionalButton"
+            android:onClick="ejecutar_info"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

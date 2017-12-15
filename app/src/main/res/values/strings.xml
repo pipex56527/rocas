@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rocas</string>
+    <string name="inicio">¡Jugar!</string>
+    <string name="config">Configuración</string>
+    <string name="salir">Salir</string>
+    <string name="d_adicional">Información</string>
+    <string name="autor_rocas">DESARROLLADOR: ERWIN FELIPE CASTAÑO MORA</string>
+    <string name="fecha_creacion_app">FECHA DE PUBLICACIÓN: 28 DE OCTUBRE DE 2017</string>
+    <string name="version_app">VERSIÓN DE LA APLICACIÓN: 1.0</string>
+    <string name="version_android_base">VERSIÓN BASE DE ANDROID: 6.0</string>
+    <string name="agradecimiento_app">AGRADECIMIENTOS ESPECIALES: LA PINCESITA</string>
+</resources>

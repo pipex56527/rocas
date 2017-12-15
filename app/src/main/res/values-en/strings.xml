@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stones</string>
+    <string name="inicio">¡Play!</string>
+    <string name="config">Configuration</string>
+    <string name="salir">Exit</string>
+    <string name="d_adicional">About Stones</string>
+    <string name="autor_rocas" translatable="false">DEVELOPER: ERWIN FELIPE CASTAÑO MORA</string>
+    <string name="fecha_creacion_app">PUBLISH DATE: OCTOBER 28, 2017</string>
+    <string name="version_app">APP VERSION: 1.0</string>
+    <string name="version_android_base">ANDROID BASE VERSION: 6.0</string>
+    <string name="agradecimiento_app">SPECIAL ACKNOWLEDGMENTS : THE LITTLE PRINCESS</string>
+</resources>
